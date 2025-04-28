@@ -1,5 +1,5 @@
 -- Load the library
-local MafuyoUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/MafuyoUILibrary/main/MafuyoUILibrary.lua"))()
+local MafuyoUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/fluxScript82/Mafuyo-Lib-/refs/heads/main/Mafuyo%20lib%20source.lua"))()
 
 -- Initialize with custom configuration
 MafuyoUI:Init({
