@@ -1,7 +1,7 @@
 -- Place this in a LocalScript
 
 -- Load the Mafuyo UI Library
-local Mafuyo = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/MafuyoLib/main/source.lua"))()
+local Mafuyo = loadstring(game:HttpGet("https://raw.githubusercontent.com/fluxScript82/Mafuyo-Lib-/refs/heads/main/Mafuyo%20lib%20source%20v2.lua"))()
 
 -- Create a new instance with key system
 local UI = Mafuyo.new({
