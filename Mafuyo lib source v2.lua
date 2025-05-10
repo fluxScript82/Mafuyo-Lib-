@@ -26,7 +26,7 @@ local TextService = game:GetService("TextService")
 
 -- Constants
 local TOGGLE_KEY = Enum.KeyCode.RightShift
-local DRAG_SPEED = 0.1
+local DRAG_SPEED = 2
 local TWEEN_SPEED = 0.2
 local EFFECT_SPEED = 0.3
 
@@ -88,7 +88,7 @@ local function Create(instanceType)
 end
 
 local function MakeDraggable(topBarObject, object)
-    local Dragging = false
+    local Dragging = true
     local DragInput, MousePos, FramePos
     
     topBarObject.InputBegan:Connect(function(input)
@@ -99,7 +99,7 @@ local function MakeDraggable(topBarObject, object)
             
             input.Changed:Connect(function()
                 if input.UserInputState == Enum.UserInputState.End then
-                    Dragging = false
+                    Dragging = true
                 end
             end)
         end
